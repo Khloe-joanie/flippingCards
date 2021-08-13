@@ -27,16 +27,16 @@ class App extends Component {
           <Router>
             <Navbar />
             <Switch>
-              <Route path="/hamburgermenu/" exact component={Home} />
-              <Route path="/hamburgermenu/about" component={About} />
-              <Route path="/hamburgermenu/ourstaff" component={OurStaff} />
-              <Route path="/hamburgermenu/contact" component={Contact} />
+              <Route path="/flippingCards/" exact component={Home} />
+              <Route path="/flippingCards/about" component={About} />
+              <Route path="/flippingCards/ourstaff" component={OurStaff} />
+              <Route path="/flippingCards/contact" component={Contact} />
             </Switch>
           </Router>
         )}
       </>
     );
   }
-}  
+}
 
 export default App;
