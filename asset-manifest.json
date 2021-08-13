@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/flippingCards/static/css/main.6ee59fb3.chunk.css",
-    "main.js": "/flippingCards/static/js/main.e0697599.chunk.js",
-    "main.js.map": "/flippingCards/static/js/main.e0697599.chunk.js.map",
+    "main.js": "/flippingCards/static/js/main.a1d6e8b5.chunk.js",
+    "main.js.map": "/flippingCards/static/js/main.a1d6e8b5.chunk.js.map",
     "runtime-main.js": "/flippingCards/static/js/runtime-main.ed2d0768.js",
     "runtime-main.js.map": "/flippingCards/static/js/runtime-main.ed2d0768.js.map",
     "static/js/2.9b65c50b.chunk.js": "/flippingCards/static/js/2.9b65c50b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed2d0768.js",
     "static/js/2.9b65c50b.chunk.js",
     "static/css/main.6ee59fb3.chunk.css",
-    "static/js/main.e0697599.chunk.js"
+    "static/js/main.a1d6e8b5.chunk.js"
   ]
 }
