@@ -20,9 +20,7 @@ class OurStaff extends Component {
         <div className="ourstaff row">
           <h1 className="staff mytitles"> Our Hospital Specialists</h1>
           <div className="container">
-            <h1 style={{ paddingBottom: "1em" }}>
-              Click on card for more details
-            </h1>
+            <h1 className="chere">Click on card for more details</h1>
             <div className="row">
               {StaffData.map((sdata) => {
                 return <StaffImgs key={sdata.id} joan={sdata} />;

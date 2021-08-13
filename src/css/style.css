@@ -13,6 +13,16 @@ body {
 }
 
 /* pages */
+.chere {
+  padding-bottom: 1em;
+  text-align: center;
+  background: linear-gradient(80deg, #e21111, #fdc007) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
 .pag {
   font-size: 10em !important;
   position: absolute;
