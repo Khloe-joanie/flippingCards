@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { Component } from "react";
-class Banner extends Component {
+class BannerC extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -9,7 +9,7 @@ class Banner extends Component {
   render() {
     return (
       <div
-        className="banner"
+        className="bannercontact"
         style={{
           backgroundImage:
             "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(" +
@@ -19,10 +19,10 @@ class Banner extends Component {
           backgroundAttachment: "fixed",
         }}
       >
-        <h1 className="pag">{this.props.text}</h1>
+        <h1 className="pagcontact">{this.props.text}</h1>
       </div>
     );
   }
 }
 
-export default Banner;
+export default BannerC;

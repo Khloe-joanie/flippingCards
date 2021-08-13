@@ -13,7 +13,7 @@ class Contact extends Component {
       <>
         <Banner
           text="Contact"
-          imgUrl="https://wallpapercave.com/wp/iYiwmW8.jpg"
+          imgUrl="https://images.unsplash.com/photo-1506202687253-52e1b29d3527?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
         />
       </>
     );

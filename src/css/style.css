@@ -20,12 +20,23 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.pagcontact {
+  font-size: 5em !important;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1em;
+}
 
 .home,
 .about,
 .contact {
+  /* display: flex; */
   height: 100vh;
   width: 100vw;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
   background-color: black;
   color: white;
 }
@@ -34,7 +45,51 @@ body {
   width: 100vw;
   color: white;
 }
+.bannercontact {
+  height: 200px;
+  width: 100vw;
+  color: white;
+}
 /* pages */
+
+/* Our Staff */
+.front {
+  text-align: center;
+  color: rgb(138, 13, 49);
+}
+.back {
+  color: white;
+  background: linear-gradient(60deg, #e21143, #bc07fd) !important;
+  line-height: 2em;
+}
+.ourstaff {
+  /* height: 100vh; */
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  /* color: white; */
+}
+
+.staffimg {
+  /* margin-bottom: 2em; */
+  /* padding-bottom: 2em; */
+  width: 100%;
+  /* margin-top: 3em; */
+  border-radius: 50%;
+}
+.staff {
+  font-size: 4em;
+  /* padding-top: 3em !important; */
+  color: #000;
+  text-align: center;
+}
+
+.jimg {
+  /* float: left; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3em;
+  padding: 2em 2em;
+}
+/* Our Staff */
 
 /* loader */
 .loader {
@@ -47,7 +102,45 @@ body {
 }
 /* loader */
 
+/*My Headings*/
+.mytitles {
+  /* height: 2em; */
+  /* letter-spacing: 1px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 0.2em;
+  width: 100%;
+  /* padding-top: 1em; */
+  margin-top: 1em;
+}
+
+.mytitles::after {
+  background-color: rgb(138, 13, 49);
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 100px;
+}
+/*My Headings*/
+
 /* Navbar */
+/* .navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+  right: 0;
+  z-index: 99;
+} */
+
 .menu-bars {
   /* margin-right: 1rem; */
   font-size: 3rem;
